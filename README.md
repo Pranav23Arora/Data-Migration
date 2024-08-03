@@ -12,7 +12,7 @@ This repository contains Python scripts and CSV files for four data migration ta
   - [Task 3: Migrating Company Data](#task-3-migrating-company-data)
   - [Task 4: Joining SQL Tables](#task-4-joining-sql-tables)
 - [Usage](#usage)
-- [Reference](#reference)
+- [Guide](#guide)
 - [Conclusion](#conclusion)
 - [License](#license)
 
@@ -46,21 +46,21 @@ This repository provides Python scripts and CSV files to demonstrate data migrat
 - **Description**: Compare two CSV files containing student data. One CSV file is created using Excel and the other using SQL Server.
 - **Files**:
   - Python Script: `code/csv_import.py`
-  - CSV Files: `csv/stu_data.csv`, `csv/stu_data1.csv`
+  - CSV Files: `CSV/stu_data.csv`, `CSV/stu_data1.csv`
 
 ### Task 2: Matching Students and Teachers
 
 - **Description**: Compare two CSV files; one contains student data with subjects, and the other contains teacher data with sections and subjects. Find common subjects and sections.
 - **Files**:
   - Python Script: `code/teacher_student.py`
-  - CSV Files: `csv/Student_database.csv`, `csv/Teachers_Database.csv`
+  - CSV Files: `CSV/Student_database.csv`, `CSV/Teachers_Database.csv`
 
 ### Task 3: Migrating Company Data
 
 - **Description**: Migrate data from a CSV file to SQL Server tables based on the length of business ro entities.
 - **Files**:
   - Python Scripts: `code/org_Entity.py`, `code/org_Unit.py`
-  - CSV File: `csv/carrier.csv`
+  - CSV File: `CSV/carrier.csv`
   - SQL Tables: `resp_org_entity`, `resp_org_unit`
 
 ### Task 4: Joining SQL Tables
@@ -93,9 +93,9 @@ This repository provides Python scripts and CSV files to demonstrate data migrat
     python code/link.py
     ```
 
-## Reference
+## Guide
 
-All relevant screenshots, including code snippets, SQL tables, and CSV file structures, are provided in the `Reference` folder for better clarity.
+All relevant screenshots, including code snippets, SQL tables, and CSV file structures, are provided in the `Guide` folder for better clarity.
 
 ## Conclusion
 
@@ -104,4 +104,3 @@ These tasks demonstrate the integration of Python and Microsoft SQL Server for d
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
